@@ -1,0 +1,29 @@
+/* global reset */
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box-one {
+  background-color: rgb(131, 42, 42);
+border: 5px solid rebeccapurple;
+width: 350px;
+margin: 30px auto;
+/* 30 to left and right and center */
+border-radius: 20px;
+padding: 15px;
+box-shadow: 10px 5px 10px rgb(129, 52, 52);
+}
+
+.box-two {
+  background-color: rgb(101, 77, 170);
+  border: 5px solid rgb(241, 227, 19);
+  width: 350px;
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(235, 118, 118);
+}
