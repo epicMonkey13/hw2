@@ -3,12 +3,14 @@
 /* CSS reset */
 
 * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, san-serif;
 }
 
 /* Body  */
 
 body {
-  box-sizing: border-box;
+  
 }
 
 .card {
