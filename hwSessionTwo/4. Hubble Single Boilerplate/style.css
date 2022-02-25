@@ -15,8 +15,10 @@ body {
 
 .card {
   border-radius: 20px;
-  box-shadow: 10px 5px 10px rgb(145, 136, 136);
   width: 350px;
+  -webkit-box-shadow:-4px 50px 50px 2px #b4acac ;
+-moz-box-shadow:-4px 50px 50px 2px #b4acac ;
+box-shadow:-6px 7px 37px -4px #b4acac ;
 }
 
 img {
@@ -48,4 +50,5 @@ h2 {
 
 p {
   color: rgb(63, 63,63);
+  margin-bottom: 15px;
 }
